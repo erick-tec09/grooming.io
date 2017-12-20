@@ -1,0 +1,99 @@
+.footerx1{ background: #362526;}
+.footerx1-img{ margin-top: 60px;  text-align: center;}
+.footerx1-img img{ width: 200px; }
+.footerx1 h5{ color: #F6AB4A;}
+.footerx1 p, a{ color: #fff;  font-family: 'Comfortaa', cursive;}
+.content-info{ 
+     margin-top: 35px;
+     margin-bottom: 10px;
+     font-family: 'Comfortaa', cursive;
+}
+.list{
+    margin-top: 15px;
+}
+.content-info li { list-style: none; margin-top: 5px;}
+.content-info li i { color: #fff; }
+.content-info li i:hover { color: #F6AB4A;}
+.content-info a{ 
+    font-size: 10px;
+    margin-top: 10px;
+    
+    margin-left: 15px;
+    text-align: left;
+}
+.content-about{
+    font-family: 'Comfortaa', cursive;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.content-about p{ font-size: 10px; margin-top: 15px;}
+.content-sucribete{
+   
+    font-family: 'Comfortaa', cursive;
+    margin-top: 15px;
+    margin-bottom: 30px; 
+    display:flex;
+    flex-direction: column;
+}
+.content-sucribete input{ 
+    border-radius: 30px;
+    /* border: none; */
+    border: 1px soli red;
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-width: 0.5px;
+     background: #362526;
+    border: 1px soid #fff;
+    outline: none;
+}
+.content-sucribete button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #F6AB4A;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    left: 190px;
+}
+.content-sucribete button:hover{
+     background:  #f5931b;
+ 
+}
+.btn-suscribete{ margin-bottom: 15px;}
+.btn-suscribete input{ width: 220px; position: absolute;}
+.btn-suscribete input::placeholder { color: rgba(255, 255, 255, 0.446);  text-align: center; width: 30px; color: #fff; }
+.btn-suscribete input:focus{   color:  rgba(255, 255, 255, 0.446); text-align: center; } 
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) {
+.footerx1-img img{ border-bottom: none;}
+.footerx1-img img{ width: 170px; margin-top: 0px; border-bottom: none;}
+
+.content-info, .content-about, .content-sucribete {  margin-top: 35px; }
+
+.content-about p{ margin-top: 20px; height: 100px;     line-height: 2em;}
+.btn-suscribete { margin-top: 20px;}
+.content-sucribete input{ width: auto;  height: 40px; }
+.btn-suscribete input{ width: 170px;}
+.btn-suscribete input::placeholder {font-size: 11px; }
+.content-sucribete button{  left: 145px; width: 30px;height: 30px;
+}
+
+@media (min-width: 800px) {
+
+
+   
+ }
+
+
+@media (min-width: 1200px) {
+
+ 
+ } 

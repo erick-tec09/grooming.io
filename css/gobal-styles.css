@@ -1,0 +1,215 @@
+/* ----------------boton slider ---------------*/
+.slider-btn{
+    
+        margin-top: 15px;
+        width: 150px;
+        background: #f6ab4a;
+        border: 1px solid #f6ab4a;
+        color: #fff;
+        font-size: 9px;
+        border-radius: 20px;
+        padding: 10px ;
+        text-transform: uppercase; 
+        font-weight: bold;
+        display: block;
+        position: relative;
+        overflow: hidden;  
+        transition: .3s;
+        z-index: 1;
+    }
+        .slider-btn a{
+        color: #fff;
+    }
+    
+    .slider-btn:before{
+        content: '';
+        width: 150px;
+        height: 100%;
+        position: absolute;
+        background:  #f5931b;
+        top: -100%;
+        left: 0;
+        z-index: -3; 
+        transition: .3s;
+    }
+    .slider-btn::after{
+        content: '';
+        width: 150px;
+        height: 100%;
+        position: absolute;
+        background:  #f5931b;
+        top: -100%;
+        left: 0;
+        z-index: -3; 
+        transition: .3s;
+    }
+    .slider-btn:hover:before{ top: 0;}
+
+
+
+/* ----------------botones  our-story ---------------*/
+.btn-general {
+ width: 130px;
+ background: #f6ab4a;
+ border: 1px solid #f6ab4a;
+ color: #fff;
+ font-size: 9px;
+ border-radius: 20px;
+ padding: 10px 20px;
+ text-transform: uppercase; 
+ font-weight: bold;
+ display: block;
+ position: relative;
+ overflow: hidden;  
+ transition: .3s;
+ z-index: 1;
+}
+.btn-general:before{
+    content: '';
+    width: 130px;;
+    height: 100%;
+    position: absolute;
+    background:  #f5931b;
+    top: -100%;
+    left: 0;
+    z-index: -3; 
+    transition: .3s;
+}
+.btn-general::after{
+    content: '';
+    width: 130px;;
+    height: 100%;
+    position: absolute;
+    background:  #f5931b;
+    top: -100%;
+    left: 0;
+    z-index: -3; 
+    transition: .3s;
+}
+.btn-general:hover:before{ top: 0;}
+
+/* ----------------botones  our-blog ---------------*/
+.btn-general-blog {
+    width: 130px;
+    background: #f6ab4a;
+    border: 1px solid #f6ab4a;
+    color: #fff;
+    font-size: 9px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    display: block;
+    position: relative;
+    overflow: hidden;  
+    transition: .3s;
+    z-index: 1;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+   }
+   .btn-general-blog:before{
+       content: '';
+       width: 130px;;
+       height: 100%;
+       position: absolute;
+       background:  #f5931b;
+       top: -100%;
+       left: 0;
+       z-index: -3; 
+       transition: .3s;
+   }
+   .btn-general-blog::after{
+       content: '';
+       width: 130px;;
+       height: 100%;
+       position: absolute;
+       background:  #f5931b;;
+       top: -100%;
+       left: 0;
+       z-index: -3; 
+       transition: .3s;
+   }
+.btn-general-blog:hover:before{ top: 0;}
+
+
+/* ----------------botones  pachages ---------------*/
+.btn-general-pachages {
+    width: 130px;
+    background: #fff;
+    border: 1px solid #f6ab4a;
+    color: #f6ab4a;
+    font-size: 9px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase; 
+    font-weight: bold;
+    display: block;
+    position: relative;
+    overflow: hidden;  
+    transition: .3s;
+    z-index: 1;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+   }
+   .btn-general-pachages a{ color:#f6ab4a;}
+   .btn-general-pachages a:hover{ color:#fff;}
+.btn-general-pachages:before{
+       content: '';
+       width: 130px;;
+       height: 100%;
+       position: absolute;
+       background:  #f5931b;;
+       top: -100%;
+       left: 0;
+       z-index: -3; 
+       transition: .3s;
+   }
+.btn-general-pachages::after{
+       content: '';
+       width: 130px;;
+       height: 100%;
+       position: absolute;
+       background:  #f5931b;
+       top: -100%;
+       left: 0;
+       z-index: -3; 
+       transition: .3s;
+   }
+.btn-general-pachages:hover:before{ top: 0;}
+.container-pachanges:hover .btn-general-pachages{
+    background: #f6ab4a;
+    color: #fff;
+}
+.container-pachanges:hover .btn-general-pachages a{
+    color: #fff;
+}
+
+/* buuton up */
+.up{
+    position: fixed;
+    bottom: 20px;
+    background: #f6ab4a;
+    color: #fff;
+    cursor: pointer;
+    bottom: 0;
+    right: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 100000;
+}
+
+.up i{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}

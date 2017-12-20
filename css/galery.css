@@ -1,0 +1,106 @@
+
+.galery-titles i{ color:#F6AB4A}
+.conteiner-galery{
+   display: block;
+   width: auto;
+   height: auto;
+   margin-top: 20px;
+}
+.galery-items {
+    position: relative; 
+    overflow: hidden; 
+
+}
+.galery-items img{
+    width: 100%;
+    height: 100%;
+}
+
+.items-4, .items-5, .items-6, .items-7{ display: none;}
+
+.ovrly{
+        background: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s;      
+}
+
+.galery-content{
+
+       
+        width: 100%;
+        height: 100%;   
+        display: flex;  
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        
+}
+
+.galery-link {
+      
+      
+      
+       width: 40px;
+       height: 40px;
+       border-radius: 50%;
+       background: rgba(255, 255, 255, 0.241);  
+       margin-right: 10px;
+       display: inline-block; 
+       transition: all 0.15s;
+      
+}
+
+.galery-search i{color: #F6AB4A; padding: 10px; }
+.galery-search i:hover{color: #fff; }
+.galery-link i{color: #F6AB4A; padding: 10px; }
+.galery-link i:hover{color: #fff; }
+.galery-items:hover .ovrly {
+        top: 0;
+
+}
+
+
+/* -----------------resposive----------------- */
+
+@media (min-width: 640px) { 
+.items-4, .items-5, .items-6, .items-7{display: block;}
+.conteiner-galery{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-template-rows: repeat(2, 130px);
+        grid-gap: 5px;
+}
+.galery-items img{
+        width: 100%;
+        height: 100%;
+}
+.galery-items:nth-child(1){
+        grid-column: 1;
+        grid-row: 1 / span 2;   
+}
+.galery-items:nth-child(2){
+        grid-column: 2;
+        grid-column: 2 / span 2;                
+} 
+.galery-items:nth-child(7){
+        grid-column: 3;
+        grid-column: 4 / span 2;                
+}
+ }
+
+ /* --------------------------------modal-------------------------------- */
+
+  /* --------------------------------modal-------------------------------- */
+ @media (min-width: 768px) { 
+.conteiner-galery{ grid-template-rows: repeat(2, 140px);}
+}
+ @media (min-width: 992px) {
+.conteiner-galery{ grid-template-rows: repeat(2, 150px);}
+}
+ @media (min-width: 1200px) { 
+.conteiner-galery{ grid-template-rows: repeat(2, 170px);}
+}

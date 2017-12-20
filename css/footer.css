@@ -1,0 +1,25 @@
+footer{
+    background: #291C1D;
+    color: #fff;
+   
+}
+.copy-rights{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+.copy-rights a{color: #fff; }
+.copy-rights a:hover{color: #F6AB4A;}
+.redes-sociales{
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+}
+.redes-sociales i{ margin: 5px;}
+@media (min-width: 575px) { 
+    .copy-rights {
+        margin-top: 25px;
+    }
+}
